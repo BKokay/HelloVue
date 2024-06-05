@@ -67,12 +67,7 @@ const router = createRouter({
       path: '/composables',
       name: 'composables', 
       component: () => import('../views/ComposableView.vue')
-    },
-    {
-      path: '/accordion',
-      name: 'accordion',
-      component: () => import('../views/AccordionView.vue')
-    },
+    }
   ]
 })
 
